@@ -1,0 +1,303 @@
+{
+  "0": {
+    "nombre": "Límite de velocidad 20 km/h",
+    "descripcion": "Señal circular con borde rojo y número 20 en negro sobre fondo blanco",
+    "significado": "La velocidad máxima permitida en este tramo es de 20 km/h",
+    "accion": "Reducir la velocidad inmediatamente hasta no superar los 20 km/h",
+    "contexto": "Zonas escolares, residenciales, áreas de obras o calles peatonales habilitadas a vehículos"
+  },
+  "1": {
+    "nombre": "Límite de velocidad 30 km/h",
+    "descripcion": "Señal circular con borde rojo y número 30 en negro sobre fondo blanco",
+    "significado": "La velocidad máxima permitida es de 30 km/h",
+    "accion": "Reducir la velocidad hasta no superar los 30 km/h",
+    "contexto": "Zonas residenciales, calles urbanas estrechas o áreas con alta afluencia peatonal"
+  },
+  "2": {
+    "nombre": "Límite de velocidad 50 km/h",
+    "descripcion": "Señal circular con borde rojo y número 50 en negro sobre fondo blanco",
+    "significado": "La velocidad máxima permitida es de 50 km/h",
+    "accion": "No superar los 50 km/h en este tramo",
+    "contexto": "Vías urbanas principales y secundarias dentro de poblados"
+  },
+  "3": {
+    "nombre": "Límite de velocidad 60 km/h",
+    "descripcion": "Señal circular con borde rojo y número 60 en negro sobre fondo blanco",
+    "significado": "La velocidad máxima permitida es de 60 km/h",
+    "accion": "No superar los 60 km/h",
+    "contexto": "Vías de transición entre zona urbana y carretera, o vías urbanas de mayor tránsito"
+  },
+  "4": {
+    "nombre": "Límite de velocidad 70 km/h",
+    "descripcion": "Señal circular con borde rojo y número 70 en negro sobre fondo blanco",
+    "significado": "La velocidad máxima permitida es de 70 km/h",
+    "accion": "No superar los 70 km/h",
+    "contexto": "Carreteras secundarias o vías periurbanas"
+  },
+  "5": {
+    "nombre": "Límite de velocidad 80 km/h",
+    "descripcion": "Señal circular con borde rojo y número 80 en negro sobre fondo blanco",
+    "significado": "La velocidad máxima permitida es de 80 km/h",
+    "accion": "No superar los 80 km/h",
+    "contexto": "Carreteras nacionales, vías intermunicipales de dos carriles"
+  },
+  "6": {
+    "nombre": "Fin de límite de velocidad 80 km/h",
+    "descripcion": "Señal circular con línea diagonal gris sobre el número 80, sin borde rojo",
+    "significado": "Se levanta la restricción de 80 km/h; aplica el límite general de la vía",
+    "accion": "Puede aumentar la velocidad hasta el límite general permitido para ese tipo de vía",
+    "contexto": "Al terminar un tramo con restricción especial de 80 km/h"
+  },
+  "7": {
+    "nombre": "Límite de velocidad 100 km/h",
+    "descripcion": "Señal circular con borde rojo y número 100 en negro sobre fondo blanco",
+    "significado": "La velocidad máxima permitida es de 100 km/h",
+    "accion": "No superar los 100 km/h",
+    "contexto": "Autopistas o carreteras de alta capacidad sin separador central"
+  },
+  "8": {
+    "nombre": "Límite de velocidad 120 km/h",
+    "descripcion": "Señal circular con borde rojo y número 120 en negro sobre fondo blanco",
+    "significado": "La velocidad máxima permitida es de 120 km/h",
+    "accion": "No superar los 120 km/h",
+    "contexto": "Autopistas de alta velocidad con separador central y múltiples carriles"
+  },
+  "9": {
+    "nombre": "Prohibido adelantar",
+    "descripcion": "Señal circular con borde rojo; dos automóviles, uno negro y uno rojo, sobre fondo blanco",
+    "significado": "Está prohibido adelantar a otros vehículos en este tramo",
+    "accion": "No sobrepasar a vehículos que circulen en el mismo sentido hasta que la señal sea retirada",
+    "contexto": "Tramos con poca visibilidad, curvas cerradas, obras o alta densidad de tráfico"
+  },
+  "10": {
+    "nombre": "Prohibido adelantar vehículos de más de 3,5 toneladas",
+    "descripcion": "Señal circular con borde rojo; automóvil negro y camión rojo sobre fondo blanco",
+    "significado": "Los vehículos de más de 3,5 toneladas no pueden adelantar a otros vehículos",
+    "accion": "Los conductores de camiones y vehículos pesados deben abstenerse de adelantar",
+    "contexto": "Tramos peligrosos en carreteras, especialmente con pendiente o curvas pronunciadas"
+  },
+  "11": {
+    "nombre": "Derecho de paso en la próxima intersección",
+    "descripcion": "Señal triangular blanca con borde rojo; flecha amarilla y negra indicando prioridad",
+    "significado": "Tiene prioridad de paso en la próxima intersección",
+    "accion": "Continúe sin detenerse; los vehículos de la vía secundaria deben cederle el paso",
+    "contexto": "Intersecciones donde la vía principal cruza con vías secundarias"
+  },
+  "12": {
+    "nombre": "Vía preferencial",
+    "descripcion": "Señal en forma de rombo amarillo con borde blanco",
+    "significado": "Usted circula por una vía preferencial; tiene prioridad de paso",
+    "accion": "Continúe con precaución; los vehículos que se incorporen deben cederle el paso",
+    "contexto": "Vías principales en zonas urbanas o carreteras donde se estableció prioridad de circulación"
+  },
+  "13": {
+    "nombre": "Ceda el paso",
+    "descripcion": "Señal triangular invertida con borde rojo y fondo blanco",
+    "significado": "Debe ceder el paso a los vehículos de la vía en que va a incorporarse",
+    "accion": "Reducir la velocidad, detenerse si es necesario, y ceder el paso antes de continuar",
+    "contexto": "Intersecciones, rotondas, incorporaciones a vías principales"
+  },
+  "14": {
+    "nombre": "Alto",
+    "descripcion": "Señal octagonal roja con la palabra STOP en blanco",
+    "significado": "Detención obligatoria antes de continuar",
+    "accion": "Detenerse completamente detrás de la línea de parada; avanzar solo cuando sea seguro",
+    "contexto": "Intersecciones peligrosas, cruces sin semáforo, accesos a vías de alta velocidad"
+  },
+  "15": {
+    "nombre": "Circulación prohibida",
+    "descripcion": "Señal circular con borde rojo y fondo blanco sin inscripción adicional",
+    "significado": "Está prohibida la circulación de vehículos en ambos sentidos",
+    "accion": "No entrar al tramo indicado; buscar vía alternativa",
+    "contexto": "Calles de sentido único con acceso restringido, zonas peatonales o áreas cerradas"
+  },
+  "16": {
+    "nombre": "Prohibido vehículos de más de 3,5 toneladas",
+    "descripcion": "Señal circular con borde rojo y silueta de camión en negro sobre fondo blanco",
+    "significado": "Los vehículos cuyo peso supere 3,5 toneladas no pueden circular por este tramo",
+    "accion": "Los conductores de vehículos pesados deben buscar vía alternativa",
+    "contexto": "Puentes con capacidad limitada, túneles, zonas urbanas restringidas"
+  },
+  "17": {
+    "nombre": "Prohibido el paso",
+    "descripcion": "Señal circular roja con barra horizontal blanca en el centro",
+    "significado": "Acceso completamente prohibido en este sentido",
+    "accion": "No entrar; esta señal indica vía de contramano o acceso restringido",
+    "contexto": "Salidas de autopistas, calles de sentido único en dirección contraria, garajes de salida"
+  },
+  "18": {
+    "nombre": "Peligro general",
+    "descripcion": "Señal triangular con borde rojo y signo de exclamación negro sobre fondo amarillo",
+    "significado": "Existe un peligro no especificado adelante",
+    "accion": "Reducir la velocidad y conducir con extrema precaución",
+    "contexto": "Situaciones de peligro variable que no corresponden a señales específicas"
+  },
+  "19": {
+    "nombre": "Curva peligrosa a la izquierda",
+    "descripcion": "Señal triangular con borde rojo y flecha curvada hacia la izquierda sobre fondo amarillo",
+    "significado": "Existe una curva pronunciada hacia la izquierda en el tramo siguiente",
+    "accion": "Reducir la velocidad antes de la curva; no adelantar",
+    "contexto": "Carreteras sinuosas de montaña o tramos con visibilidad reducida"
+  },
+  "20": {
+    "nombre": "Curva peligrosa a la derecha",
+    "descripcion": "Señal triangular con borde rojo y flecha curvada hacia la derecha sobre fondo amarillo",
+    "significado": "Existe una curva pronunciada hacia la derecha en el tramo siguiente",
+    "accion": "Reducir la velocidad antes de la curva; no adelantar",
+    "contexto": "Carreteras sinuosas de montaña o tramos con visibilidad reducida"
+  },
+  "21": {
+    "nombre": "Doble curva",
+    "descripcion": "Señal triangular con borde rojo y flecha en S sobre fondo amarillo",
+    "significado": "Existen dos curvas sucesivas; la primera gira a la izquierda",
+    "accion": "Reducir la velocidad significativamente y no adelantar en todo el tramo",
+    "contexto": "Tramos sinuosos en montaña o zonas rurales con relieve accidentado"
+  },
+  "22": {
+    "nombre": "Resalto o badén",
+    "descripcion": "Señal triangular con borde rojo y perfil de montículo sobre fondo amarillo",
+    "significado": "Hay un resalto o irregularidad pronunciada en la calzada",
+    "accion": "Reducir la velocidad antes del resalto para no dañar el vehículo ni perder el control",
+    "contexto": "Entradas a zonas residenciales, escuelas, o tramos con mantenimiento vial incompleto"
+  },
+  "23": {
+    "nombre": "Pavimento resbaladizo",
+    "descripcion": "Señal triangular con borde rojo y auto con líneas de deslizamiento sobre fondo amarillo",
+    "significado": "El pavimento puede estar resbaladizo, especialmente en condiciones de lluvia",
+    "accion": "Reducir la velocidad, evitar frenadas bruscas y maniobras repentinas",
+    "contexto": "Zonas propensas a lluvia, hielo, aceite derramado o pavimento en mal estado"
+  },
+  "24": {
+    "nombre": "Vía estrecha por la derecha",
+    "descripcion": "Señal triangular con borde rojo y líneas que convergen por la derecha sobre fondo amarillo",
+    "significado": "La vía se estrecha por el lado derecho en el tramo siguiente",
+    "accion": "Reducir la velocidad y mantenerse a la izquierda con precaución",
+    "contexto": "Obras viales, puentes angostos, tramos con talud o cuneta invadiendo la calzada"
+  },
+  "25": {
+    "nombre": "Obras en la vía",
+    "descripcion": "Señal triangular con borde rojo y figura de trabajador con pala sobre fondo amarillo",
+    "significado": "Hay trabajos viales activos en la zona; peligro para conductores y trabajadores",
+    "accion": "Reducir drásticamente la velocidad, seguir las instrucciones del personal de obra",
+    "contexto": "Tramos en mantenimiento, reparcheo, construcción o mejoramiento de vía"
+  },
+  "26": {
+    "nombre": "Semáforo adelante",
+    "descripcion": "Señal triangular con borde rojo y semáforo negro sobre fondo amarillo",
+    "significado": "Hay un semáforo próximo que puede estar en rojo",
+    "accion": "Reducir la velocidad y estar preparado para detenerse",
+    "contexto": "Intersecciones con semáforo de difícil visibilidad anticipada o con ciclos cortos"
+  },
+  "27": {
+    "nombre": "Peatones",
+    "descripcion": "Señal triangular con borde rojo y figura de peatón caminando sobre fondo amarillo",
+    "significado": "Zona de cruce o tránsito frecuente de peatones",
+    "accion": "Reducir la velocidad y ceder el paso a los peatones",
+    "contexto": "Zonas urbanas densas, mercados, parques o calles sin separación física"
+  },
+  "28": {
+    "nombre": "Paso de escolares",
+    "descripcion": "Señal triangular con borde rojo y figuras de adulto con niño sobre fondo amarillo",
+    "significado": "Zona de cruce escolar; niños pueden estar cruzando la calzada",
+    "accion": "Reducir la velocidad al mínimo y ceder el paso en todo momento",
+    "contexto": "Inmediaciones de colegios, guarderías o rutas escolares en horarios de entrada y salida"
+  },
+  "29": {
+    "nombre": "Cruce de ciclistas",
+    "descripcion": "Señal triangular con borde rojo y figura de ciclista sobre fondo amarillo",
+    "significado": "Los ciclistas cruzan o circulan frecuentemente en esta zona",
+    "accion": "Reducir la velocidad y estar atento al cruce de bicicletas",
+    "contexto": "Ciclovías, cruces de carriles ciclistas con la calzada, eventos deportivos"
+  },
+  "30": {
+    "nombre": "Peligro de hielo o nieve",
+    "descripcion": "Señal triangular con borde rojo y copo de nieve o auto deslizando sobre fondo amarillo",
+    "significado": "El pavimento puede estar helado o cubierto de nieve",
+    "accion": "Reducir la velocidad, usar cadenas si es necesario, evitar frenadas bruscas",
+    "contexto": "Zonas de alta montaña, pasos de páramo o regiones con inviernos extremos"
+  },
+  "31": {
+    "nombre": "Cruce de animales silvestres",
+    "descripcion": "Señal triangular con borde rojo y silueta de venado saltando sobre fondo amarillo",
+    "significado": "Zona donde los animales silvestres cruzan frecuentemente la vía",
+    "accion": "Reducir la velocidad, especialmente de noche, y no enceguecer animales con las luces altas",
+    "contexto": "Vías que atraviesan zonas de reserva natural, bosques o áreas rurales con fauna"
+  },
+  "32": {
+    "nombre": "Fin de todas las restricciones",
+    "descripcion": "Señal circular con líneas diagonales grises sobre fondo blanco sin borde rojo",
+    "significado": "Se levantan todas las restricciones de velocidad y adelantamiento previamente vigentes",
+    "accion": "Puede retomar la velocidad y las maniobras permitidas para ese tipo de vía",
+    "contexto": "Al salir de zonas restringidas como obras, zonas escolares o tramos de velocidad reducida"
+  },
+  "33": {
+    "nombre": "Gire a la derecha",
+    "descripcion": "Señal circular azul con flecha blanca curvada hacia la derecha",
+    "significado": "Es obligatorio girar a la derecha en la próxima intersección",
+    "accion": "Girar a la derecha; no continuar recto ni girar a la izquierda",
+    "contexto": "Intersecciones con restricción de movimiento, rotondas o vías de un solo sentido permitido"
+  },
+  "34": {
+    "nombre": "Gire a la izquierda",
+    "descripcion": "Señal circular azul con flecha blanca curvada hacia la izquierda",
+    "significado": "Es obligatorio girar a la izquierda en la próxima intersección",
+    "accion": "Girar a la izquierda; no continuar recto ni girar a la derecha",
+    "contexto": "Intersecciones donde el giro izquierda es el único movimiento permitido"
+  },
+  "35": {
+    "nombre": "Siga adelante",
+    "descripcion": "Señal circular azul con flecha blanca apuntando hacia arriba",
+    "significado": "Es obligatorio continuar en línea recta; no gire",
+    "accion": "Continuar recto sin desviarse",
+    "contexto": "Intersecciones con carril exclusivo de circulación recta, glorietas o distribuidores"
+  },
+  "36": {
+    "nombre": "Adelante o gire a la derecha",
+    "descripcion": "Señal circular azul con dos flechas blancas: una recta y una curvada a la derecha",
+    "significado": "Puede continuar recto o girar a la derecha",
+    "accion": "Elija entre seguir adelante o girar a la derecha",
+    "contexto": "Intersecciones con carriles compartidos o glorietas con salidas múltiples"
+  },
+  "37": {
+    "nombre": "Adelante o gire a la izquierda",
+    "descripcion": "Señal circular azul con dos flechas blancas: una recta y una curvada a la izquierda",
+    "significado": "Puede continuar recto o girar a la izquierda",
+    "accion": "Elija entre seguir adelante o girar a la izquierda",
+    "contexto": "Intersecciones con carriles compartidos o distribuidores viales"
+  },
+  "38": {
+    "nombre": "Mantenga la derecha",
+    "descripcion": "Señal circular azul con flecha blanca curvada apuntando a la derecha",
+    "significado": "Es obligatorio circular por el carril derecho",
+    "accion": "Desplazarse hacia el lado derecho de la calzada o isleta",
+    "contexto": "Islas viales, distribuidores, carriles de alta velocidad con separadores"
+  },
+  "39": {
+    "nombre": "Mantenga la izquierda",
+    "descripcion": "Señal circular azul con flecha blanca curvada apuntando a la izquierda",
+    "significado": "Es obligatorio circular por el carril izquierdo",
+    "accion": "Desplazarse hacia el lado izquierdo de la calzada o isleta",
+    "contexto": "Islas viales, distribuidores, tramos donde el carril izquierdo es el correcto"
+  },
+  "40": {
+    "nombre": "Glorieta obligatoria",
+    "descripcion": "Señal circular azul con tres flechas blancas circulando en sentido antihorario",
+    "significado": "Debe incorporarse a la glorieta y circular en sentido indicado",
+    "accion": "Ceder el paso a los vehículos que ya circulan en la glorieta; entrar cuando sea seguro",
+    "contexto": "Intersecciones circulares o rotondas de tráfico"
+  },
+  "41": {
+    "nombre": "Fin de prohibición de adelantar",
+    "descripcion": "Señal circular gris con dos automóviles (negros) y línea diagonal, sin borde rojo",
+    "significado": "Se levanta la prohibición de adelantar; puede sobrepasar vehículos si es seguro",
+    "accion": "Puede adelantar con precaución respetando las demás normas de tránsito",
+    "contexto": "Al finalizar un tramo donde estaba prohibido adelantar"
+  },
+  "42": {
+    "nombre": "Fin de prohibición de adelantar para vehículos de más de 3,5 toneladas",
+    "descripcion": "Señal circular gris con automóvil y camión con línea diagonal, sin borde rojo",
+    "significado": "Se levanta la restricción de adelantamiento para vehículos pesados",
+    "accion": "Los vehículos pesados pueden reanudar el adelantamiento respetando las normas generales",
+    "contexto": "Al finalizar tramos donde los camiones tenían prohibido adelantar"
+  }
+}

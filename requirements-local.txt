@@ -1,0 +1,11 @@
+tensorflow==2.15.0
+opencv-python==4.9.0.80
+transformers==4.36.0
+sentence-transformers==2.3.1
+gradio==4.16.0
+huggingface-hub==0.20.3
+pillow==10.2.0
+numpy==1.26.4
+pandas==2.2.0
+matplotlib==3.8.2
+scikit-learn==1.4.0

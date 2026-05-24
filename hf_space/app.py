@@ -74,7 +74,10 @@ def ask_agent(history, question: str):
     else:
         answer = f"{result['answer']} (Fuente: {entry['nombre']})"
 
-    history = history + [(question, answer)]
+    history = history + [
+        {"role": "user", "content": question},
+        {"role": "assistant", "content": answer},
+    ]
     return history, ""
 
 
@@ -102,7 +105,7 @@ with gr.Blocks(title="Detector de Señales de Tránsito 🚦", theme=gr.themes.S
             "Haz preguntas sobre la señal detectada (o cualquier señal de tránsito). "
             "El agente usa BERT en español para responder."
         )
-        chatbot = gr.Chatbot(label="Agente Q&A de Señales", height=400)
+        chatbot = gr.Chatbot(label="Agente Q&A de Señales", height=400, type="messages")
         with gr.Row():
             msg_box = gr.Textbox(
                 placeholder="Ejemplo: ¿Qué significa esta señal? ¿Qué debo hacer?",

@@ -2,7 +2,7 @@ import numpy as np
 from PIL import Image
 
 IMG_SIZE = 32
-HF_MODEL_REPO = "jarolmedina41/traffic-signs-cnn"
+HF_MODEL_REPO = "Medina07/traffic-signs-cnn"
 HF_MODEL_FILENAME = "cnn_gtsrb_v1.h5"
 
 

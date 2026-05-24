@@ -81,7 +81,7 @@ def ask_agent(history, question: str):
     return history, ""
 
 
-with gr.Blocks(title="Detector de Señales de Tránsito 🚦", theme=gr.themes.Soft()) as demo:
+with gr.Blocks(title="Detector de Señales de Tránsito 🚦") as demo:
     gr.Markdown("# 🚦 Detector de Señales de Tránsito")
     gr.Markdown(
         "Detecta y clasifica señales del dataset GTSRB con una CNN entrenada en TensorFlow/Keras. "
@@ -105,7 +105,7 @@ with gr.Blocks(title="Detector de Señales de Tránsito 🚦", theme=gr.themes.S
             "Haz preguntas sobre la señal detectada (o cualquier señal de tránsito). "
             "El agente usa BERT en español para responder."
         )
-        chatbot = gr.Chatbot(label="Agente Q&A de Señales", height=400, type="messages")
+        chatbot = gr.Chatbot(label="Agente Q&A de Señales", height=400)
         with gr.Row():
             msg_box = gr.Textbox(
                 placeholder="Ejemplo: ¿Qué significa esta señal? ¿Qué debo hacer?",
@@ -124,5 +124,4 @@ with gr.Blocks(title="Detector de Señales de Tránsito 🚦", theme=gr.themes.S
         "BERT Q&A (Hugging Face Transformers) + Sentence-Transformers"
     )
 
-if __name__ == "__main__":
-    demo.launch()
+demo.launch(theme=gr.themes.Soft())

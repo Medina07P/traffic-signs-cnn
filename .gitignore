@@ -1,11 +1,9 @@
-models/
 data/gtsrb/
 data/gtsrb-german-traffic-sign/
 .venv/
 venv/
 __pycache__/
 *.pyc
-*.h5
 *.egg-info/
 .DS_Store
 *.ipynb_checkpoints/

@@ -38,7 +38,7 @@ def load_gtsrb(train_dir: Path, test_csv: Path) -> Tuple:
         X, y, test_size=VALIDATION_SPLIT, random_state=42, stratify=y
     )
 
-    df_test = pd.read_csv(test_csv, sep=";")
+    df_test = pd.read_csv(test_csv)
     test_images = [_load_image(test_csv.parent / row["Path"]) for _, row in df_test.iterrows()]
     X_test = np.array(test_images)
     y_test = df_test["ClassId"].to_numpy(dtype=np.int32)

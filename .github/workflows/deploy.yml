@@ -25,7 +25,7 @@ jobs:
 
           git clone https://Medina07:$HF_TOKEN@huggingface.co/spaces/Medina07/traffic-signs-cnn hf_space
 
-          rsync -av --exclude='.git' ./ hf_space/
+          rsync -av --exclude='.git' ./hf_space/ hf_space/
 
           # 🔴 FIX CRÍTICO: generar README válido (evita error de configuración)
           echo "---" > hf_space/README.md

@@ -13,13 +13,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Push to Hugging Face
+      - name: Deploy to Hugging Face
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
 
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "github-actions"
+
+          rm -rf hf_space
 
           git clone https://Medina07:$HF_TOKEN@huggingface.co/spaces/Medina07/traffic-signs-cnn hf_space
 
